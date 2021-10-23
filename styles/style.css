@@ -10,7 +10,7 @@ body {
 }
 
 footer {
-    height: 20px;
+    height: 5rem;
     background-color: grey;
 }
 
@@ -20,15 +20,16 @@ footer {
 }
 
 .ingredients {
-    background-color: #fff;
-    width: 20%;
-    box-shadow: 0 0.5rem 1rem -0.5rem grey;
+    min-width: 25rem;
     position: relative;
+    margin-left: 18%;
 }
 
 ul {
     list-style: none;
     padding: 0;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem -0.5rem grey;
 }
 
 li {
@@ -42,14 +43,34 @@ ul li:hover {
 
 .header {
     position: relative;
-    display: block;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
     margin-left: 25%;
-    margin-right: 50%;
+    margin-right: 25%;
 }
 
 .container {
     display: flex;
 }
+
+img{
+    position: relative;
+    box-shadow: 0 0.5rem 1rem -0.5rem grey;
+}
+
+.instruction {
+    margin-left: 3%;
+    width: 60rem;
+}
+
+.ingredient-list li {
+    padding-left: 1rem;
+}
+/*
+.ingredient-heading {
+    background-color: #f7f6f5;
+}*/
