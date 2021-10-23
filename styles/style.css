@@ -30,10 +30,11 @@ ul {
     padding: 0;
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem -0.5rem grey;
+    line-height: 1.6rem;
 }
 
-li {
-    padding: 4px 0 4px 0;
+.instruction-list li {
+    padding:  0.75rem 1.5rem;
 }
 
 ul li:hover {
@@ -65,12 +66,9 @@ img{
 .instruction {
     margin-left: 3%;
     width: 60rem;
+    line-height: 1.6rem;
 }
 
 .ingredient-list li {
-    padding-left: 1rem;
+    padding: 0.75rem 1.5rem;
 }
-/*
-.ingredient-heading {
-    background-color: #f7f6f5;
-}*/
